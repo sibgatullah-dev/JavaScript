@@ -8,5 +8,7 @@ const person ={
 //Create a new object
 const man = Object.create(person);
 man.name='Peter';
+man.age=20
 
 console.log(person.name+ " and " +man.name);
+console.log(man);
