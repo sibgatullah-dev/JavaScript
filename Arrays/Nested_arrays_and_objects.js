@@ -19,5 +19,5 @@ for(let i in myObj.cars){
     }
 }
 
-console.log(items);
-console.log(model);
+console.log(items);//car names
+console.log(model);//car models
