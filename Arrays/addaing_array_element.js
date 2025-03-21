@@ -8,3 +8,4 @@ console.log(fruits.length);
 const fruit = ["Banana", "Orange", "Apple"];
 fruit[6]= "Lemon";
 console.log(fruit);//if you turn the array into flat string you will see undefined values as holes!!
+console.log(fruit.length)
