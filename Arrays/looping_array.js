@@ -24,3 +24,8 @@ fruit.forEach(item =>[
     Newarray.push(item)
 ]);
 console.log(Newarray);
+
+//accessing the last item in the loop
+console.log(fruit[-1]);//In JavaScript, array indices are zero-based, meaning they start at 0. When you try to access an element using a negative index, it will return undefined because negative indices are not valid for arrays.
+//right way 
+console.log(fruit[fruit.length-1]);
